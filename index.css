@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainDiv {
+    background-image: url(download.jpg);
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    background-color: aliceblue;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 63vh;
+    padding-bottom: 1%;
+}
+
+time{
+    color: rgb(255, 0, 255);
+}
+
+.foto{
+   border-top-left-radius: 6%;
+   border-top-right-radius: 6%;
+   width: 100%;
+    
+}
+
+p{
+padding-bottom: 40px;
+padding: 10px 15px 40px 15px;
+}
+
+.orange time{
+color: rgb(255, 167, 3);
+}
+
+.green time{
+    color: green;
+}
+
+.fototwo{
+    border-top-left-radius: 6%;
+   border-top-right-radius: 6%;
+   width: 100%;
+}
+
+.fotothree{
+    border-top-left-radius: 6%;
+   border-top-right-radius: 6%;
+   width: 100%;
+}
+ .footer{
+    display: flex;
+    padding: 0px 15px;
+    padding-bottom: px;
+    color: aliceblue;
+    background-color: rgb(246, 3, 169);
+    border-radius: 5%;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+ }
+
+ h4{
+padding: 10px;
+padding-top: 27px;
+padding-bottom: 27px;
+
+ }
+
+ .ka{
+   border-left: 2px solid rgb(255, 4, 234);;
+   border-right: 2px solid rgb(252, 0, 202);
+ }
+
+ .footerthree{
+    display: flex;
+    padding: 0px 15px;
+    padding-bottom: px;
+    color: aliceblue;
+    background-color: rgb(255, 115, 0);
+    border-radius: 5%;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+ }
+
+.ka3{
+    border-left: 2px solid rgb(234, 86, 12);;
+   border-right: 2px solid rgb(234, 86, 12);
+}
+
+.footertwo{
+    display: flex;
+    padding: 0px 15px;
+    padding-bottom: px;
+    color: aliceblue;
+    background-color: rgb(37, 222, 50);
+    border-radius: 5%;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%; 
+}
+
+.ka2{
+    border-left: 2px solid  rgb(124, 254, 48);
+    border-right: 2px solid rgb(110, 252, 28);   
+}
